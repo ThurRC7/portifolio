@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    background-image: url(ivana-cajina-9LwCEYH1oW4-unsplash\ 1.png);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,15 +65,6 @@ p{
 .sun{
     width: 30px;
 }
-
-
-
-
-
-
-
-
-
 /* header */
 .header{
     height: 150px;
@@ -100,45 +91,10 @@ p{
 
 
 
-/* name */
-.name{
-    display: grid;
+.tx p{
+    font-size: 60px;
 }
-.arthur{
-    margin-top: 165px;
-    margin-left: 350px;
-}
-.arthur p{
-    font-size: 48px;
-}
-.tec{
-    margin-left: 350px;
-}
-.tec p{
-    font-size: 32px;
-}
-
-
-
-
-
-
-/* text */
-.texto{
-    display: grid;
-}
-.textaopae{
-    margin-left: 1200px;
-}
-.textaopae p{
-    font-size: 32px;
-}
-
-
-
-
-/* imagens */
-.imagens{
-    margin-left: 1200px;
-    margin-top: 150px;
+.tx{
+    margin-left: 400px;
+    margin-top: 100px;
 }

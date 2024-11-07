@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    background-image: url(ivana-cajina-9LwCEYH1oW4-unsplash\ 1.png);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -99,46 +99,62 @@ p{
 
 
 
+/* faz pergunta dificil n */
+.acessa-ai {
+    width: 231px;
+    height: 61px;
+    background-color: #ffffff; /* Cor de fundo branca */
+    color: #000000; /* Cor do texto preta */
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 200px;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 200px;
+}
 
-/* name */
-.name{
+
+
+
+
+
+
+.delivery{
     display: grid;
+    grid-template-columns: 350px 200px 1200px;
+    grid-template-rows: 60px 300px;
+    margin-top: 100px;
 }
-.arthur{
-    margin-top: 165px;
-    margin-left: 350px;
+.delivery p{
+    font-size: 52px;
+    margin-left: 400px;
 }
-.arthur p{
-    font-size: 48px;
+.paragrafooos{
+    grid-column: 3;
 }
-.tec{
-    margin-left: 350px;
+.img1{
+    grid-row: 2;
+    grid-column: 1;
+    margin-left: 150px;
 }
-.tec p{
-    font-size: 32px;
-}
 
-
-
-
-
-
-/* text */
-.texto{
+.elit{
     display: grid;
+    grid-template-columns: 350px 200px 1200px;
+    grid-template-rows: 60px 300px;
 }
-.textaopae{
-    margin-left: 1200px;
+.img2{
+    margin-left: 130px;
+    grid-row: 2;
+    grid-column: 1;
 }
-.textaopae p{
-    font-size: 32px;
+.elit p{
+    font-size: 52px;
+    margin-left: 400px;
 }
-
-
-
-
-/* imagens */
-.imagens{
-    margin-left: 1200px;
-    margin-top: 150px;
+.papapapa{
+    grid-column: 3;
 }
